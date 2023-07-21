@@ -25,7 +25,6 @@ class LeadController extends Controller
         'name'          => 'required|string|min:5|max:50',
         'email'         => 'required|email|max:255',
         'message'       => 'required|string',
-        'newsletter'    => 'required|boolean',
     ];
 
     public function store(Request $request)
